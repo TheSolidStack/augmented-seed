@@ -1,0 +1,21 @@
+CREATE TABLE "product" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"title" varchar(255) NOT NULL,
+	"description" text NOT NULL,
+	"image" varchar(500) NOT NULL,
+	"price" numeric(10, 2) NOT NULL,
+	"brand" varchar(255),
+	"model" varchar(255),
+	"color" varchar(100),
+	"category" varchar(100) NOT NULL,
+	"popular" boolean,
+	"discount" numeric(5, 2),
+	"original_price" numeric(10, 2),
+	"rating" numeric(3, 2),
+	"reviews" integer,
+	"sku" varchar(100),
+	"stock" integer,
+	"sale" boolean,
+	"images" text[],
+	"features" text[]
+);

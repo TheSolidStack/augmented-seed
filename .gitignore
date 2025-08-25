@@ -3,6 +3,8 @@ node_modules
 dist 
 .mastra 
 .env.development 
-.env 
+.env
 *.db 
-*.db-* 
+*.db-*
+.idea
+.idea/*
